@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { SWRProvider } from "@/app/provider";
 
 export const metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "QooAI助手",
+  description: "您的专属QooAI聊天助手.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "QooAI助手",
     statusBarStyle: "default",
   },
 };
